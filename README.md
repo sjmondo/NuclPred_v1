@@ -150,12 +150,12 @@ Next, run nucleosome prediction. This can be done on CPU but is faster on GPU:
 
 Note that this step can take quite some time, especially if you are running a large dataset on CPU. If a high performance computing center is available to you, one option would be splitting sequences by scaffold or sets of scaffolds and farming jobs out in an array.
 
-### Example:
+### Example (using files available in examples folder):
 
 ```bash
 conda activate nucleosome_prediction_env
-./generate_matrix.py --assembly Mereb1.fasta --data_dir path/to/Mereb1_shapes_folder/ --organism_scaffold_label Mereb1 > Mereb1_input.matrix
-./predict_nucleosomes.py --input Mereb1_input.matrix > Mereb1_nucleosome_predictions.wig
+./generate_matrix.py --assembly examples/Mereb1.fasta --data_dir examples/ --organism_scaffold_label Mereb1 > Mereb1_input.matrix #this will generate a full dataset for Meredithblackwellia eburnea. Best to use the test file available in examples folder for a quick test.
+./predict_nucleosomes.py --input examples/Mereb1_example_nucleosome_prediction_input.matrix > Mereb1_nucleosome_predictions.wig
 ```
 
 ## Outputs:
