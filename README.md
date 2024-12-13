@@ -154,7 +154,7 @@ Note that this step can take quite some time, especially if you are running a la
 
 ```bash
 conda activate nucleosome_prediction_env
-./generate_matrix.py --assembly Mereb1.fasta --data_dir Mereb1/shapes_folder --organism_scaffold_label Mereb1 > Mereb1_input.matrix
+./generate_matrix.py --assembly Mereb1.fasta --data_dir path/to/Mereb1_shapes_folder/ --organism_scaffold_label Mereb1 > Mereb1_input.matrix
 ./predict_nucleosomes.py --input Mereb1_input.matrix > Mereb1_nucleosome_predictions.wig
 ```
 
