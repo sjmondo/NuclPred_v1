@@ -22,7 +22,7 @@ NuclPred was trained using ~28 million sites from 4 fungi distributed across the
 
 **NuclPred** requires specific versions of dependencies. We recommend using Anaconda to install and store dependencies required to run **NuclPred** within a single conda environment. For install instructions, see https://docs.anaconda.com/anaconda/install/. 
 
-Once installed, navigate to the folder you unpackaged NuclPred into (e.g. NuclPred_v1), then you can you can then create a conda environment containing all dependencies as below: 
+Once installed, navigate to the folder you unpackaged NuclPred into (e.g. NuclPred_v1), then you can create a conda environment containing all dependencies as below: 
 
 ```bash
 cd NuclPred_v1
