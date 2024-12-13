@@ -154,7 +154,7 @@ Note that this step can take quite some time, especially if you are running a la
 
 ```bash
 conda activate nucleosome_prediction_env
-./generate_matrix.py --assembly examples/Mereb1.fasta --data_dir examples/ --organism_scaffold_label Mereb1 > Mereb1_input.matrix #this will generate a full dataset for Meredithblackwellia eburnea. Best to use the test file available in examples folder for a quick test.
+./generate_matrix.py --assembly examples/Mereb1.fasta --data_dir examples/ --organism_scaffold_label Mereb1 > Mereb1_input.matrix #this will generate a full dataset for Meredithblackwellia eburnea. Best to use the test file available in examples folder for a quick test of nucleosome prediction.
 ./predict_nucleosomes.py --input examples/Mereb1_example_nucleosome_prediction_input.matrix > Mereb1_nucleosome_predictions.wig
 ```
 
