@@ -13,9 +13,9 @@ NOTICE.  This Software was developed under funding from the U.S. Department of E
 
 ## Overview
 
-**NuclPred** is a **Nucl**eosome **Pred**iction tool. Trained using in-vitro nucleosome data from fungi, it aims to calculate the physical preference of histones for certain DNA profiles, creating a histone-DNA favorability map. It is written in Python and utilizes a hybrid deep learning architecture comprised of multiple convolutional and recurrent neural network layers, which takes in DNA and shape parameters (calculated using DNAshapeR; Chiu et al., 2016, doi:10.1093/bioinformatics/btv735), then predicts occupancy. 
+**NuclPred** is a **Nucl**eosome **Pred**iction tool. Trained using *in vitro* nucleosome data from fungi, it aims to calculate the physical preference of histones for certain DNA profiles, creating a histone-DNA favorability map. It is written in Python and utilizes a hybrid deep learning architecture comprised of multiple convolutional and recurrent neural network layers, which takes in DNA and shape parameters (calculated using DNAshapeR; Chiu et al., 2016, doi:10.1093/bioinformatics/btv735), then predicts occupancy. 
 
-NuclPred was trained using ~28 million sites from 4 fungi distributed across the Kingdom (Meredithblackwellia eburnea, Usnea florida, Rhodosporidium toruloides and Catenaria anguillulae) and trained to predict in-vitro nucleosome occupancy.
+NuclPred was trained using ~28 million sites from 4 fungi distributed across the Kingdom (*Meredithblackwellia eburnea*, *Usnea florida*, *Rhodosporidium toruloides* and *Catenaria anguillulae*) and trained to predict *in vitro* nucleosome occupancy.
 
 
 ## Installation
